@@ -6,7 +6,7 @@ package com.charlesmoloney.lombok;
  */
 public class App {
     public static void main(String[] args) {
-        Order order = new Order("test", 5, 5, true);
-        System.out.println(order.getOrderId());
+        User user = new User("moloneyminecraft@gmail.com", "Charles Moloney");
+        System.out.println(user.getEmail() + ": " + user.getName());
     }
 }
